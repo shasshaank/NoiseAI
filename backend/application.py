@@ -139,8 +139,17 @@ def predict_random_forest():
 # ARIMA prediction route (unchanged)
 @app.route('/predict_arima', methods=['POST'])
 def predict_arima():
-    user_date = request.json.get('date')
+    user_date_raw = request.json.get('date')
     user_station = request.json.get('station')
+
+    if user_date_raw is None:
+        return jsonify({'error': 'Missing field: date'}), 400
+
+    # Parse incoming date into a pandas Timestamp for reliable comparison
+    try:
+        user_date = pd.to_datetime(user_date_raw)
+    except Exception:
+        return jsonify({'error': 'Invalid date format. Use YYYY-MM-DD'}), 400
 
     # Filter data based on station
     filtered_data = data[data['Station'] == user_station]
