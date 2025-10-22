@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+venv/
+.git/
+.gitignore
+*.log
+__pycache__
+*.keras
+*.h5
+*.ckpt
+.env
+.DS_Store
+
+# Allow baking a single model file into the image if you intentionally include it in the repo
+!my_model.keras
