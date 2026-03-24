@@ -19,17 +19,20 @@ A cross-platform mobile application that forecasts zone-level noise pollution ac
 ## ✨ Features
 
 ### 📈 Noise Level Forecasting
+
 - **Dual Model Prediction** — Choose between ARIMA or Random Forest before every prediction
 - **Zone-based Forecasting** — Select a specific city zone to get localized noise level predictions
 - **Time-series Input** — Predict noise levels at any future point in time
 - **Indian City Coverage** — Trained on real Kaggle noise monitoring data from Indian urban zones
 
 ### 🎵 Audio Classification
+
 - **Upload Audio Files** — Submit recordings directly from your device
 - **Sound Identification** — Classifies everyday sounds like dogs barking, birds chirping, traffic noise, and more
 - **Instant Results** — Get classification output in seconds via the Flask API
 
 ### 📱 Mobile Experience
+
 - **Cross-platform** — Runs on both Android and iOS via React Native
 - **Model Selection UI** — Clean interface to switch between ARIMA and Random Forest per prediction
 - **Production APK** — Fully deployable Android build available
@@ -38,22 +41,22 @@ A cross-platform mobile application that forecasts zone-level noise pollution ac
 
 ## 🧱 Tech Stack
 
-| Category | Technologies |
-| --- | --- |
-| **Mobile Frontend** | React Native |
-| **Backend / API** | Flask, Python |
-| **ML Models** | ARIMA, Random Forest (scikit-learn) |
-| **Data Processing** | Pandas, NumPy |
-| **Dataset** | Kaggle Noise Monitoring Dataset (Indian Cities, 10,000+ records) |
+| Category            | Technologies                                                     |
+| ------------------- | ---------------------------------------------------------------- |
+| **Mobile Frontend** | React Native                                                     |
+| **Backend / API**   | Flask, Python                                                    |
+| **ML Models**       | ARIMA, Random Forest (scikit-learn)                              |
+| **Data Processing** | Pandas, NumPy                                                    |
+| **Dataset**         | Kaggle Noise Monitoring Dataset (Indian Cities, 10,000+ records) |
 
 ---
 
 ## 📊 Model Performance
 
-| Model | Accuracy | Best For |
-| --- | --- | --- |
-| **Random Forest** | 90%+ | Short-term predictions, non-linear patterns |
-| **ARIMA** | 85%+ | Trend-based forecasting, seasonal patterns |
+| Model             | Accuracy | Best For                                    |
+| ----------------- | -------- | ------------------------------------------- |
+| **Random Forest** | 90%+     | Short-term predictions, non-linear patterns |
+| **ARIMA**         | 85%+     | Trend-based forecasting, seasonal patterns  |
 
 Both models were trained and evaluated on the Kaggle Noise Monitoring dataset containing 10,000+ time-series records across multiple Indian city zones.
 
@@ -62,6 +65,7 @@ Both models were trained and evaluated on the Kaggle Noise Monitoring dataset co
 ## ⚙️ Setup
 
 ### Prerequisites
+
 - Python 3.9+
 - Node.js 18+ and npm
 - React Native CLI or Expo
@@ -70,7 +74,7 @@ Both models were trained and evaluated on the Kaggle Noise Monitoring dataset co
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/shasshaank/NoiseAI.git
+git clone https://github.com/PulipatiPranav/NoiseAI.git
 cd NoiseAI
 ```
 
@@ -169,7 +173,7 @@ NoiseAI/
 
 ## 📱 Download
 
-The production APK for Android is available in the [Releases](https://github.com/shasshaank/NoiseAI/releases) section of this repository.
+The production APK for Android is available in the [Releases](https://github.com/PulipatiPranav/NoiseAI/releases) section of this repository.
 
 ---
 
@@ -183,24 +187,42 @@ The production APK for Android is available in the [Releases](https://github.com
 
 ---
 
+## 📸 Working Demo Snapshots
+
+<div align="center">
+
+<img src="workingScreenshots/login.png" width="250"/>
+<img src="workingScreenshots/randomforest.png" width="250"/>
+<img src="workingScreenshots/arima.png" width="250"/>
+
+</div>
+
+---
+
 ## 📄 License
 
-MIT License © 2025 Shashaank Jain
+MIT License © 2025 Shashaank Jain , Pranav Pulipati
 
 ---
 
 ## 📧 Contact
 
+**Pranav Pulipati**
+
+- GitHub: [@PulipatiPranav](https://github.com/PulipatiPranav)
+- Email: pranavpulipatix@gmail.com
+- LinkedIn: [pranavpulipati](https://www.linkedin.com/in/pranavpulipati/)
+
 **Shashaank Jain**
 
-* GitHub: [@shasshaank](https://github.com/shasshaank)
-* Email: shashaankjain07@gmail.com
-* LinkedIn: [shashaank-jain](https://linkedin.com/in/shashaank-jain)
+- GitHub: [@shasshaank](https://github.com/shasshaank)
+- Email: shashaankjain07@gmail.com
+- LinkedIn: [shashaank-jain](https://linkedin.com/in/shashaank-jain)
 
 ---
 
 <div align="center">
 
-Made with ❤️ by Shashaank Jain
+Made with ❤️ by Shashaank Jain and Pranav Pulipati
 
 </div>
