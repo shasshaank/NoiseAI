@@ -51,6 +51,20 @@ A cross-platform mobile application that forecasts zone-level noise pollution ac
 
 ---
 
+---
+
+## 🔄 Workflow
+
+<div align="center">
+
+<img src="workingScreenshots/workflow.png" width="700"/>
+
+</div>
+
+<p align="center">
+System workflow showing interaction between frontend, backend API, database, and machine learning models.
+</p>
+
 ## 📊 Model Performance
 
 | Model             | Accuracy | Best For                                    |
